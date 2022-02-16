@@ -3,34 +3,55 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:elevation="10dp"
-    app:cardCornerRadius="5dp"
-    android:layout_margin="4dp"
-    android:background="@color/colorBackCard"
-    android:backgroundTint="@color/colorBackCard">
+    app:cardCornerRadius="18dp"
+    android:layout_marginTop="6dp"
+    android:layout_marginLeft="7dp"
+    android:layout_marginRight="7dp"
+    app:cardBackgroundColor="#DDEF77"
+    app:cardElevation="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:text="@string/_45"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingEnd="20dp"
+            android:textSize="16sp"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="8dp">
+        android:paddingStart="15dp"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
 
         <TextView
-            android:id="@+id/tv_last_name"
+            android:id="@+id/tv_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/last_name"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textSize="20sp"/>
+            android:textColor="#464647"
+            android:textSize="17sp" />
 
         <TextView
-            android:id="@+id/tv_first_name"
+            android:id="@+id/tv_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/first_name"
-            android:textColor="@color/black"
-            android:textSize="18sp"/>
+            android:textColor="#858484"
+            android:textSize="16sp" />
+
 
     </LinearLayout>
 

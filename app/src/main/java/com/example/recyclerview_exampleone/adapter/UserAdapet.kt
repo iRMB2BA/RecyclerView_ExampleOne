@@ -21,8 +21,9 @@ class UserAdapet: RecyclerView.Adapter<UserAdapet.UserViewHolder>() {
     }
 
     override fun onBindViewHolder(holder: UserAdapet.UserViewHolder, position: Int) {
-        holder.itemView.tv_last_name.text = userList[position].lastName
-        holder.itemView.tv_first_name.text = userList[position].firstName
+        holder.itemView.tv_name.text = userList[position].nameOperation
+        holder.itemView.tv_time.text = userList[position].timeOperation
+        holder.itemView.tv_amount.text = userList[position].amount
     }
 
     override fun getItemCount(): Int {

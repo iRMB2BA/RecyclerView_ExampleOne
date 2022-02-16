@@ -1,7 +1,8 @@
 package com.example.recyclerview_exampleone.model
 
 class UserModel(
-    val lastName: String,
-    val firstName: String
+    val nameOperation: String,
+    val timeOperation: String,
+    val amount: String
 ) {
 }

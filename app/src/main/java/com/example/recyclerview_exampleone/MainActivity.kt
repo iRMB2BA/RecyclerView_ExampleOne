@@ -30,45 +30,20 @@ class MainActivity : AppCompatActivity() {
     fun myUser(): ArrayList<UserModel> {
         val userList = ArrayList<UserModel>()
 
-        val user1 = UserModel("Petrov", "Dima")
+        val user1 = UserModel("Amazon", "● 6:25pm", "$8.90")
         userList.add(user1)
 
-        val user2 = UserModel("Sidorov", "Oleg")
+        val user2 = UserModel("Cash from ATM", "● 5:40pm", "$250.00")
         userList.add(user2)
 
-        val user3 = UserModel("Smirnov", "Andrei")
+        val user3 = UserModel("Costa", "● 5:20pm", "$5.50")
         userList.add(user3)
 
-        val user4 = UserModel("Ivanov", "Sasha")
+        val user4 = UserModel("Donuts", "● 10:00pm", "$35.00")
         userList.add(user4)
 
-        val user5 = UserModel("Vasechkin", "Kolya")
+        val user5 = UserModel("Parking", "● 7:40pm", "$15.00")
         userList.add(user5)
-
-        val user6 = UserModel("Vasechkin", "Kolya")
-        userList.add(user6)
-
-        val user7 = UserModel("Vasechkin", "Kolya")
-        userList.add(user7)
-
-        val user8 = UserModel("Vasechkin", "Kolya")
-        userList.add(user8)
-
-        val user9 = UserModel("Vasechkin", "Kolya")
-        userList.add(user9)
-
-        val user10 = UserModel("Vasechkin", "Kolya")
-        userList.add(user10)
-
-        val user11 = UserModel("Vasechkin", "Kolya")
-        userList.add(user11)
-
-        val user12 = UserModel("Vasechkin", "Kolya")
-        userList.add(user12)
-
-        val user13 = UserModel("Vasechkin", "Kolya")
-        userList.add(user13)
-
 
         return userList
     }
